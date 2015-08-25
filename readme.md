@@ -62,3 +62,12 @@ The only explanation I can come up with is that both ImageMagick and Aware do so
 |balloon_aware.jp2|JP2, created directly from *balloon.jpg* with Aware|
 |balloon_aware_from_tiff.jp2|JP2, created from *balloon_im.tiff* with Aware|
 |outputJpylyzer.xml|Jpylyzer output for all JP2s|
+
+
+## Update
+
+I reported this as a bug with ImageMagick:
+
+<http://www.imagemagick.org/discourse-server/viewtopic.php?f=3&t=28244>
+
+I have also informed Aware.
