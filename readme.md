@@ -36,7 +36,7 @@ Interestingly, if I first convert the JPEG to a TIFF, and then compress the TIFF
 
 And then:
 
-    compare -metric PSNR balloon.jpg balloon_im.tiff balloon_im_from_tiff.jp2 NUL
+    compare -metric PSNR balloon.jpg balloon_im_from_tiff.jp2 NUL
 
 Result:
 
