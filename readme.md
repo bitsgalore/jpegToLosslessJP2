@@ -68,6 +68,12 @@ The only explanation I can come up with is that both ImageMagick and Aware do so
 
 I reported this as a bug with ImageMagick:
 
+<http://www.imagemagick.org/discourse-server/viewtopic.php?f=3&t=28244&p=125169#p125169>
+
+Issue is caused by IM basing its JP2 output quality on the quality of the input image. A patch that changes this behaviour has been submitted and will be incorporated into the next release of IM. For older versions, a workaround is to use the `-quality` switch like this:
+
+    convert -quality 0 balloon.jpg balloon_im.jp2
+
 <http://www.imagemagick.org/discourse-server/viewtopic.php?f=3&t=28244>
 
 I have also informed Aware.
